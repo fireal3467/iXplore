@@ -26,11 +26,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.rootViewController = naviController
         self.window?.makeKeyAndVisible()
        
-        let addButton = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: #selector(addButtonClicked))
-        
-        mapPage.navigationItem.title = "iXplore"
-        mapPage.navigationItem.rightBarButtonItem = addButton
-        
         return true
     }
     

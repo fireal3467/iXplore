@@ -12,13 +12,19 @@
 		4E646A5B1D2FAE0A00FA0561 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E646A591D2FAE0A00FA0561 /* LaunchScreen.storyboard */; };
 		4E646A641D2FAE2A00FA0561 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E646A621D2FAE2A00FA0561 /* ViewController1.swift */; };
 		4E646A651D2FAE2A00FA0561 /* ViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E646A631D2FAE2A00FA0561 /* ViewController1.xib */; };
+		4E86C5781D37B9D3003E1C07 /* DateTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E86C5771D37B9D3003E1C07 /* DateTextField.swift */; };
+		4EC411001D33EAAE00DE3626 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC410FF1D33EAAE00DE3626 /* CoreLocation.framework */; };
+		4ECBB2AC1D3511F700A6ED57 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECBB2AA1D3511F700A6ED57 /* MyCell.swift */; };
+		4ECBB2AD1D3511F700A6ED57 /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ECBB2AB1D3511F700A6ED57 /* MyCell.xib */; };
 		4ED0A7C01D32FD9F004E2BD8 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED0A7BF1D32FD9F004E2BD8 /* Entry.swift */; };
-		4ED0A7C21D32FF26004E2BD8 /* EntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED0A7C11D32FF26004E2BD8 /* EntryController.swift */; };
 		4ED0A7C71D330D2F004E2BD8 /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED0A7C51D330D2F004E2BD8 /* AddPhotoViewController.swift */; };
 		4ED0A7C81D330D2F004E2BD8 /* AddPhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ED0A7C61D330D2F004E2BD8 /* AddPhotoViewController.xib */; };
+		4EE744E41D3636CD00159B70 /* AddPhotoDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE744E31D3636CD00159B70 /* AddPhotoDelegate.swift */; };
+		FCD4CD2F7E55F2A107AC3CA1 /* Pods_IXplore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E02962D7BEDD4BFD045D8D7 /* Pods_IXplore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11F479E41F43E4B8681BB811 /* Pods-IXplore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IXplore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IXplore/Pods-IXplore.debug.xcconfig"; sourceTree = "<group>"; };
 		4E646A4D1D2FAE0A00FA0561 /* IXplore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IXplore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E646A501D2FAE0A00FA0561 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E646A571D2FAE0A00FA0561 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -26,10 +32,16 @@
 		4E646A5C1D2FAE0A00FA0561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E646A621D2FAE2A00FA0561 /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 		4E646A631D2FAE2A00FA0561 /* ViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController1.xib; sourceTree = "<group>"; };
+		4E86C5771D37B9D3003E1C07 /* DateTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTextField.swift; sourceTree = "<group>"; };
+		4EC410FF1D33EAAE00DE3626 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4ECBB2AA1D3511F700A6ED57 /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		4ECBB2AB1D3511F700A6ED57 /* MyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
 		4ED0A7BF1D32FD9F004E2BD8 /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Entry.swift; path = ../Entry.swift; sourceTree = "<group>"; };
-		4ED0A7C11D32FF26004E2BD8 /* EntryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryController.swift; sourceTree = "<group>"; };
 		4ED0A7C51D330D2F004E2BD8 /* AddPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddPhotoViewController.swift; path = ../AddPhotoViewController.swift; sourceTree = "<group>"; };
 		4ED0A7C61D330D2F004E2BD8 /* AddPhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AddPhotoViewController.xib; path = ../AddPhotoViewController.xib; sourceTree = "<group>"; };
+		4EE744E31D3636CD00159B70 /* AddPhotoDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPhotoDelegate.swift; sourceTree = "<group>"; };
+		5E02962D7BEDD4BFD045D8D7 /* Pods_IXplore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IXplore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8AA972A0C8691FDBCFBC879 /* Pods-IXplore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IXplore.release.xcconfig"; path = "Pods/Target Support Files/Pods-IXplore/Pods-IXplore.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +49,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EC411001D33EAAE00DE3626 /* CoreLocation.framework in Frameworks */,
+				FCD4CD2F7E55F2A107AC3CA1 /* Pods_IXplore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E5B98D01D366701001AD98C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4ECBB2AA1D3511F700A6ED57 /* MyCell.swift */,
+				4ECBB2AB1D3511F700A6ED57 /* MyCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 		4E646A441D2FAE0A00FA0561 = {
 			isa = PBXGroup;
 			children = (
+				4EC410FF1D33EAAE00DE3626 /* CoreLocation.framework */,
 				4E646A4F1D2FAE0A00FA0561 /* IXplore */,
 				4E646A4E1D2FAE0A00FA0561 /* Products */,
+				DAC45819D85F196267365D08 /* Pods */,
+				87D25F9D9902530635EFE484 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,13 +88,15 @@
 		4E646A4F1D2FAE0A00FA0561 /* IXplore */ = {
 			isa = PBXGroup;
 			children = (
+				4E5B98D01D366701001AD98C /* Cells */,
 				4ED0A7C91D330D40004E2BD8 /* Screens */,
 				4E646A501D2FAE0A00FA0561 /* AppDelegate.swift */,
 				4ED0A7BF1D32FD9F004E2BD8 /* Entry.swift */,
-				4ED0A7C11D32FF26004E2BD8 /* EntryController.swift */,
+				4EE744E31D3636CD00159B70 /* AddPhotoDelegate.swift */,
 				4E646A571D2FAE0A00FA0561 /* Assets.xcassets */,
 				4E646A591D2FAE0A00FA0561 /* LaunchScreen.storyboard */,
 				4E646A5C1D2FAE0A00FA0561 /* Info.plist */,
+				4E86C5771D37B9D3003E1C07 /* DateTextField.swift */,
 			);
 			path = IXplore;
 			sourceTree = "<group>";
@@ -84,6 +112,23 @@
 			name = Screens;
 			sourceTree = "<group>";
 		};
+		87D25F9D9902530635EFE484 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E02962D7BEDD4BFD045D8D7 /* Pods_IXplore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAC45819D85F196267365D08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11F479E41F43E4B8681BB811 /* Pods-IXplore.debug.xcconfig */,
+				A8AA972A0C8691FDBCFBC879 /* Pods-IXplore.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -91,9 +136,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E646A5F1D2FAE0A00FA0561 /* Build configuration list for PBXNativeTarget "IXplore" */;
 			buildPhases = (
+				FC12E5C43EEA1B3C3686C3C5 /* [CP] Check Pods Manifest.lock */,
 				4E646A491D2FAE0A00FA0561 /* Sources */,
 				4E646A4A1D2FAE0A00FA0561 /* Frameworks */,
 				4E646A4B1D2FAE0A00FA0561 /* Resources */,
+				A844C9D91EED52CB1FCA3D1E /* [CP] Embed Pods Frameworks */,
+				F53C5D5C141D9E0AC8B7849B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,10 +194,59 @@
 				4ED0A7C81D330D2F004E2BD8 /* AddPhotoViewController.xib in Resources */,
 				4E646A5B1D2FAE0A00FA0561 /* LaunchScreen.storyboard in Resources */,
 				4E646A581D2FAE0A00FA0561 /* Assets.xcassets in Resources */,
+				4ECBB2AD1D3511F700A6ED57 /* MyCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A844C9D91EED52CB1FCA3D1E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IXplore/Pods-IXplore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F53C5D5C141D9E0AC8B7849B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IXplore/Pods-IXplore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC12E5C43EEA1B3C3686C3C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4E646A491D2FAE0A00FA0561 /* Sources */ = {
@@ -158,7 +255,9 @@
 			files = (
 				4ED0A7C71D330D2F004E2BD8 /* AddPhotoViewController.swift in Sources */,
 				4ED0A7C01D32FD9F004E2BD8 /* Entry.swift in Sources */,
-				4ED0A7C21D32FF26004E2BD8 /* EntryController.swift in Sources */,
+				4ECBB2AC1D3511F700A6ED57 /* MyCell.swift in Sources */,
+				4E86C5781D37B9D3003E1C07 /* DateTextField.swift in Sources */,
+				4EE744E41D3636CD00159B70 /* AddPhotoDelegate.swift in Sources */,
 				4E646A641D2FAE2A00FA0561 /* ViewController1.swift in Sources */,
 				4E646A511D2FAE0A00FA0561 /* AppDelegate.swift in Sources */,
 			);
@@ -263,6 +362,7 @@
 		};
 		4E646A601D2FAE0A00FA0561 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11F479E41F43E4B8681BB811 /* Pods-IXplore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IXplore/Info.plist;
@@ -274,6 +374,7 @@
 		};
 		4E646A611D2FAE0A00FA0561 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8AA972A0C8691FDBCFBC879 /* Pods-IXplore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IXplore/Info.plist;
